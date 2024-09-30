@@ -1,0 +1,16 @@
+body > nav > div > a > img {
+  padding-right: 4px;
+}
+
+#carouselExample > div > div.carousel-item.active {
+  height: 50%;
+}
+
+.carousel-item {
+  height: 800px;
+}
+
+.hero > div > h1 > img {
+  padding-right: 4px;
+  height: 50px;
+}
