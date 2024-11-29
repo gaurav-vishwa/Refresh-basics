@@ -13,7 +13,7 @@ body {
 }
 
 .logo {
-  margin: 6px 65% 6px 40px;
+  margin: 6px 56% 6px 70px;
 }
 
 .nav-content {
@@ -38,8 +38,9 @@ li {
   padding: 0 8px;
 }
 
-h3 {
-  font-size: 30px;
+h4 {
+  font-size: 32px;
+  margin: 22px;
 }
 
 /*Hero Section*/
@@ -91,5 +92,212 @@ h2 {
   width: 50%;
   float: right;
   padding-left: 16%;
+}
+
+hr {
+  margin: 0;
+  box-shadow: 4px 3px 10px 0px #535959;
+}
+
+/*Quote*/
+
+.container {
+  margin-top: 9%;
+  margin-bottom: 16%;
+}
+
+.pfp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro-img {
+  border-radius: 50%;
+  border: 6px solid #535959;
+}
+
+.quote {
+  text-align: center;
+  margin-top: 4%;
+}
+
+p {
+  font-family: "Teachers", sans-serif;
+  color: #535959;
+  font-size: 27px;
+}
+
+/*Skills*/
+
+.skill-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+.skill-img {
+  border-radius: 38px;
+  border: 5px solid #535959;
+  width: 200px;
+  height: 200px;
+  margin: 40px 120px 40px 200px;
+  float: left;
+}
+
+h3 {
+  font-size: 44px;
+  color: #535959;
+}
+
+.skill-content {
+  display: block;
+  margin-top: 100px;
+}
+
+.content {
+  display: flex;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 46px;
+}
+
+/*Contact page*/
+
+.contact-page {
+  margin: 60px 0 0;
+}
+
+.left {
+  display: inline-flex;
+  width: 50%;
+}
+
+.form {
+  display: block;
+  position: relative;
+  float: right;
+  border: 6px solid #535959;
+  border-radius: 38px;
+  width: 580px;
+  height: 580px;
+  margin: 1% 6% 0 0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 30px 0 30px;
+}
+
+body > section:nth-child(4) > div > div.form > div.contact > h3 {
+  margin: 20px 0 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: block;
+  border-radius: 26px;
+  border: solid #535959;
+  background-color: transparent;
+  width: 90%;
+  height: 20px;
+  margin-bottom: 23px;
+  padding: 10px;
+}
+
+textarea {
+  display: block;
+  border-radius: 26px;
+  border: solid #535959;
+  background-color: transparent;
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+}
+
+::placeholder {
+  font-family: "Teachers", sans-serif;
+  opacity: 1; 
+}
+
+button {
+  display: block;
+  border: solid #535959;
+  border-radius: 26px;
+  background-color: #535959;
+  margin-top: 19px;
+  padding: 0;
+  width: 220px;
+  height: 60px;
+}
+
+.btn-text {
+  font-family: "Teachers", sans-serif;
+  color: #fff;
+  font-size: 27px;
+  margin: 0;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #535959;
+  width: 100%;
+  height: 200px;
+  border-radius: 38px 38px 0 0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social > a > p {
+  font-family: "Teachers", sans-serif;
+  color: #fff;
+  margin-right: 100px;
+}
+
+.flap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body > section:nth-child(5) > div > div > div.flap > div > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-right: 20px;
+}
+
+body > section:nth-child(5) > div > div > div.flap > div > a > p {
+  display: flex;
+  color: #fff;
+}
+
+.flap {
+  white-space: nowrap; /* Prevents wrapping */
+}
+
+.copy-right, .mail {
+  display: inline-block;
+  vertical-align: middle; /* Align both divs vertically */
+}
+
+.copy-right p, .mail p {
+  margin: 0; /* Remove any default margins */
 }
 
